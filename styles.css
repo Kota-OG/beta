@@ -1,0 +1,29 @@
+* {
+    line-height: 1.5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 235, 150);
+    text-align: left;
+    border: 5px solid black;
+}
+
+img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: rgb(0, 139, 109);
+    font-size: medium;
+    font-family:cursive;
+}
+a {
+    text-decoration: none;
+    color: rgba(243, 11, 11, 0.952);
+    font-size: large;
+}
