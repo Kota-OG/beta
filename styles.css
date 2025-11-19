@@ -1,12 +1,20 @@
 * {
     line-height: 1.5;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 10px;
+    padding: 0;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(4, 235, 150);
+    background-color: rgb(255, 255, 255);
     text-align: left;
-    border: 5px solid black;
 }
 
 img {
@@ -16,7 +24,12 @@ img {
 ul {
     list-style: none;
 }
-
+#Easy.Recipes {
+    text-decoration-color: blueviolet;
+    font-size: x-large;
+    padding: 10px;
+    margin: 0;
+}
 h1 {
     color: rgb(0, 139, 109);
     font-size: medium;
@@ -26,4 +39,38 @@ a {
     text-decoration: none;
     color: rgba(243, 11, 11, 0.952);
     font-size: large;
+}
+.box {
+    background-color: bisque;
+    font-size: medium;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0;;
+}
+.bar {
+    font-size: medium;
+    padding: 10px;
+    margin: 0px;
+    margin-left: 125px;
+    margin-bottom: 5px
+}
+.bar {
+    display: flex;
+    gap: 0px;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.bar h2 {
+    margin: 0;
+}
+
+.bar a {
+    text-decoration-color: blue;
+    color: #e96565;
+    font-weight: bold;
+}
+
+.bar a:hover {
+    color: #ff6600;
 }
